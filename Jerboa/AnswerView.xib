@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AnswerView" customModule="Jerboa" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="f0y-Oa-fVH">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Vhx-yS-HWx">
+                    <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="STi-3m-dVa">
+                            <rect key="frame" x="0.0" y="0.0" width="250" height="122.5"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" restorationIdentifier="1" translatesAutoresizingMaskIntoConstraints="NO" id="zDQ-Cf-sZk" customClass="UIControl">
+                                    <rect key="frame" x="0.0" y="0.0" width="122.5" height="122.5"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img1" translatesAutoresizingMaskIntoConstraints="NO" id="8kn-8F-iQF" customClass="CardImage" customModule="Jerboa" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="122.5" height="122.5"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="8kn-8F-iQF" secondAttribute="trailing" id="Rns-lj-jht"/>
+                                        <constraint firstAttribute="bottom" secondItem="8kn-8F-iQF" secondAttribute="bottom" id="V8h-wb-NHp"/>
+                                        <constraint firstItem="8kn-8F-iQF" firstAttribute="top" secondItem="zDQ-Cf-sZk" secondAttribute="top" id="kmT-Dy-giS"/>
+                                        <constraint firstItem="8kn-8F-iQF" firstAttribute="leading" secondItem="zDQ-Cf-sZk" secondAttribute="leading" id="l85-41-Wlb"/>
+                                    </constraints>
+                                    <connections>
+                                        <action selector="subviewPressed1:" destination="-1" eventType="touchUpInside" id="pO7-1h-F9R"/>
+                                    </connections>
+                                </view>
+                                <view contentMode="scaleToFill" restorationIdentifier="2" translatesAutoresizingMaskIntoConstraints="NO" id="INp-Qn-ZeV" customClass="UIControl">
+                                    <rect key="frame" x="127.5" y="0.0" width="122.5" height="122.5"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img2" translatesAutoresizingMaskIntoConstraints="NO" id="LfW-ej-ASH" customClass="CardImage" customModule="Jerboa" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="122.5" height="122.5"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="LfW-ej-ASH" firstAttribute="leading" secondItem="INp-Qn-ZeV" secondAttribute="leading" id="Ecf-Zn-1Jp"/>
+                                        <constraint firstItem="LfW-ej-ASH" firstAttribute="top" secondItem="INp-Qn-ZeV" secondAttribute="top" id="RnW-Pf-aiU"/>
+                                        <constraint firstAttribute="trailing" secondItem="LfW-ej-ASH" secondAttribute="trailing" id="Zu0-tV-5Mn"/>
+                                        <constraint firstAttribute="bottom" secondItem="LfW-ej-ASH" secondAttribute="bottom" id="fK4-HL-zsR"/>
+                                    </constraints>
+                                    <connections>
+                                        <action selector="subviewPressed1:" destination="-1" eventType="touchUpInside" id="aVu-wd-bVD"/>
+                                    </connections>
+                                </view>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="mMg-H6-Mnz">
+                            <rect key="frame" x="0.0" y="127.5" width="250" height="122.5"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" restorationIdentifier="3" translatesAutoresizingMaskIntoConstraints="NO" id="7ap-t2-wyG" customClass="UIControl">
+                                    <rect key="frame" x="0.0" y="0.0" width="122.5" height="122.5"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img3" translatesAutoresizingMaskIntoConstraints="NO" id="bqy-ws-YJd" customClass="CardImage" customModule="Jerboa" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="122.5" height="122.5"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="bqy-ws-YJd" firstAttribute="top" secondItem="7ap-t2-wyG" secondAttribute="top" id="2TO-El-2D0"/>
+                                        <constraint firstItem="bqy-ws-YJd" firstAttribute="leading" secondItem="7ap-t2-wyG" secondAttribute="leading" id="aUb-h0-YPt"/>
+                                        <constraint firstAttribute="bottom" secondItem="bqy-ws-YJd" secondAttribute="bottom" id="phW-2j-wQU"/>
+                                        <constraint firstAttribute="trailing" secondItem="bqy-ws-YJd" secondAttribute="trailing" id="zeb-DH-I29"/>
+                                    </constraints>
+                                    <connections>
+                                        <action selector="subviewPressed1:" destination="-1" eventType="touchUpInside" id="rpT-7J-pXV"/>
+                                    </connections>
+                                </view>
+                                <view contentMode="scaleToFill" restorationIdentifier="4" translatesAutoresizingMaskIntoConstraints="NO" id="TV1-sQ-euK" customClass="UIControl">
+                                    <rect key="frame" x="127.5" y="0.0" width="122.5" height="122.5"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img4" translatesAutoresizingMaskIntoConstraints="NO" id="oHy-VX-PBX" customClass="CardImage" customModule="Jerboa" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="122.5" height="122.5"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="oHy-VX-PBX" firstAttribute="top" secondItem="TV1-sQ-euK" secondAttribute="top" id="8ys-42-jNR"/>
+                                        <constraint firstAttribute="trailing" secondItem="oHy-VX-PBX" secondAttribute="trailing" id="MbV-T3-nRT"/>
+                                        <constraint firstItem="oHy-VX-PBX" firstAttribute="leading" secondItem="TV1-sQ-euK" secondAttribute="leading" id="dyK-Fb-khS"/>
+                                        <constraint firstAttribute="bottom" secondItem="oHy-VX-PBX" secondAttribute="bottom" id="uyQ-H3-HEm"/>
+                                    </constraints>
+                                    <connections>
+                                        <action selector="subviewPressed1:" destination="-1" eventType="touchUpInside" id="hZm-ci-MHV"/>
+                                    </connections>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Vhx-yS-HWx" secondAttribute="bottom" id="7I7-oZ-xWc"/>
+                <constraint firstItem="Vhx-yS-HWx" firstAttribute="leading" secondItem="f0y-Oa-fVH" secondAttribute="leading" id="I49-WD-Dsq"/>
+                <constraint firstItem="Vhx-yS-HWx" firstAttribute="top" secondItem="f0y-Oa-fVH" secondAttribute="top" id="Yx1-Zj-hHK"/>
+                <constraint firstAttribute="trailing" secondItem="Vhx-yS-HWx" secondAttribute="trailing" id="mXX-ey-faY"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="9Nu-7c-fnD"/>
+            <point key="canvasLocation" x="92.753623188405811" y="26.785714285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="img1" width="5472" height="3648"/>
+        <image name="img2" width="5184" height="3456"/>
+        <image name="img3" width="5230" height="3269"/>
+        <image name="img4" width="5472" height="3648"/>
+    </resources>
+</document>

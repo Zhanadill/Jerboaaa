@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23390D812609DAC300CD60CC /* AnswerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23390D802609DAC300CD60CC /* AnswerView.xib */; };
+		23390D832609DAE000CD60CC /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23390D822609DAE000CD60CC /* AnswerView.swift */; };
+		2363361B2608DA5B002EBDE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2363361A2608DA5B002EBDE9 /* AppDelegate.swift */; };
+		2363361D2608DA5B002EBDE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2363361C2608DA5B002EBDE9 /* SceneDelegate.swift */; };
+		2363361F2608DA5B002EBDE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2363361E2608DA5B002EBDE9 /* ViewController.swift */; };
+		236336222608DA5B002EBDE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236336202608DA5B002EBDE9 /* Main.storyboard */; };
+		236336242608DA5C002EBDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236336232608DA5C002EBDE9 /* Assets.xcassets */; };
+		236336272608DA5C002EBDE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236336252608DA5C002EBDE9 /* LaunchScreen.storyboard */; };
+		2363362F2608DB5B002EBDE9 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2363362E2608DB5B002EBDE9 /* CardView.xib */; };
+		236336312608DB95002EBDE9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236336302608DB95002EBDE9 /* CardView.swift */; };
+		236336332608E8E8002EBDE9 /* CardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236336322608E8E8002EBDE9 /* CardImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23390D802609DAC300CD60CC /* AnswerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnswerView.xib; sourceTree = "<group>"; };
+		23390D822609DAE000CD60CC /* AnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerView.swift; sourceTree = "<group>"; };
+		236336172608DA5B002EBDE9 /* Jerboa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jerboa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2363361A2608DA5B002EBDE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2363361C2608DA5B002EBDE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2363361E2608DA5B002EBDE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		236336212608DA5B002EBDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		236336232608DA5C002EBDE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		236336262608DA5C002EBDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		236336282608DA5C002EBDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2363362E2608DB5B002EBDE9 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		236336302608DB95002EBDE9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		236336322608E8E8002EBDE9 /* CardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		236336142608DA5B002EBDE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2363360E2608DA5B002EBDE9 = {
+			isa = PBXGroup;
+			children = (
+				236336192608DA5B002EBDE9 /* Jerboa */,
+				236336182608DA5B002EBDE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		236336182608DA5B002EBDE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				236336172608DA5B002EBDE9 /* Jerboa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		236336192608DA5B002EBDE9 /* Jerboa */ = {
+			isa = PBXGroup;
+			children = (
+				2363361A2608DA5B002EBDE9 /* AppDelegate.swift */,
+				2363361C2608DA5B002EBDE9 /* SceneDelegate.swift */,
+				2363361E2608DA5B002EBDE9 /* ViewController.swift */,
+				236336202608DA5B002EBDE9 /* Main.storyboard */,
+				236336232608DA5C002EBDE9 /* Assets.xcassets */,
+				236336252608DA5C002EBDE9 /* LaunchScreen.storyboard */,
+				236336282608DA5C002EBDE9 /* Info.plist */,
+				2363362E2608DB5B002EBDE9 /* CardView.xib */,
+				236336302608DB95002EBDE9 /* CardView.swift */,
+				236336322608E8E8002EBDE9 /* CardImage.swift */,
+				23390D802609DAC300CD60CC /* AnswerView.xib */,
+				23390D822609DAE000CD60CC /* AnswerView.swift */,
+			);
+			path = Jerboa;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		236336162608DA5B002EBDE9 /* Jerboa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2363362B2608DA5C002EBDE9 /* Build configuration list for PBXNativeTarget "Jerboa" */;
+			buildPhases = (
+				236336132608DA5B002EBDE9 /* Sources */,
+				236336142608DA5B002EBDE9 /* Frameworks */,
+				236336152608DA5B002EBDE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jerboa;
+			productName = Jerboa;
+			productReference = 236336172608DA5B002EBDE9 /* Jerboa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2363360F2608DA5B002EBDE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					1,
+					111,
+					2,
+					222,
+				);
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Жанадил";
+				TargetAttributes = {
+					236336162608DA5B002EBDE9 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 236336122608DA5B002EBDE9 /* Build configuration list for PBXProject "Jerboa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2363360E2608DA5B002EBDE9;
+			productRefGroup = 236336182608DA5B002EBDE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				236336162608DA5B002EBDE9 /* Jerboa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		236336152608DA5B002EBDE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236336272608DA5C002EBDE9 /* LaunchScreen.storyboard in Resources */,
+				236336242608DA5C002EBDE9 /* Assets.xcassets in Resources */,
+				23390D812609DAC300CD60CC /* AnswerView.xib in Resources */,
+				2363362F2608DB5B002EBDE9 /* CardView.xib in Resources */,
+				236336222608DA5B002EBDE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		236336132608DA5B002EBDE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2363361F2608DA5B002EBDE9 /* ViewController.swift in Sources */,
+				236336332608E8E8002EBDE9 /* CardImage.swift in Sources */,
+				23390D832609DAE000CD60CC /* AnswerView.swift in Sources */,
+				2363361B2608DA5B002EBDE9 /* AppDelegate.swift in Sources */,
+				236336312608DB95002EBDE9 /* CardView.swift in Sources */,
+				2363361D2608DA5B002EBDE9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		236336202608DA5B002EBDE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				236336212608DA5B002EBDE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		236336252608DA5C002EBDE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				236336262608DA5C002EBDE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		236336292608DA5C002EBDE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2363362A2608DA5C002EBDE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2363362C2608DA5C002EBDE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2L9SYQJKL;
+				INFOPLIST_FILE = Jerboa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KBTU.Jerboa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2363362D2608DA5C002EBDE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2L9SYQJKL;
+				INFOPLIST_FILE = Jerboa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KBTU.Jerboa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		236336122608DA5B002EBDE9 /* Build configuration list for PBXProject "Jerboa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236336292608DA5C002EBDE9 /* Debug */,
+				2363362A2608DA5C002EBDE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2363362B2608DA5C002EBDE9 /* Build configuration list for PBXNativeTarget "Jerboa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2363362C2608DA5C002EBDE9 /* Debug */,
+				2363362D2608DA5C002EBDE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2363360F2608DA5B002EBDE9 /* Project object */;
+}
